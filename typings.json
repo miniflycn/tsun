@@ -1,0 +1,8 @@
+{
+  "name": "tsun",
+  "dependencies": {},
+  "globalDependencies": {
+    "cookie": "registry:dt/cookie#0.1.2+20160316155526",
+    "node": "registry:dt/node#6.0.0+20160621231320"
+  }
+}

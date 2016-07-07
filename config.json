@@ -1,0 +1,11 @@
+{
+	"proto": ["edu.proto", "exam.proto", "qapp_package.proto", "edu_chat1111.proto", "edu_chat_backend.proto"],
+	"serviceIp": "10.136.149.168",
+	"servicePort": 18898,
+	"services": {
+		"edu_chat_busi_svr": {
+			"serviceIp": "10.136.149.168",
+			"servicePort": 18898
+		}	
+	}
+}

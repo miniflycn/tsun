@@ -1,0 +1,39 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "typings",
+  "bundle": "typings/tsd.d.ts",
+  "installed": {
+    "node/node.d.ts": {
+      "commit": "56df28f76adb7c11c019282699afdc6e9b0a96f6"
+    },
+    "should/should.d.ts": {
+      "commit": "6cc4904c249cd08f7da07433560ba211429085a4"
+    },
+    "mocha/mocha.d.ts": {
+      "commit": "6cc4904c249cd08f7da07433560ba211429085a4"
+    },
+    "node_zeromq/zmq.d.ts": {
+      "commit": "8ea42cd8bb11863ed6f242d67c502288ebc45a7b"
+    },
+    "ref/ref.d.ts": {
+      "commit": "56df28f76adb7c11c019282699afdc6e9b0a96f6"
+    },
+    "ref-struct/ref-struct.d.ts": {
+      "commit": "56df28f76adb7c11c019282699afdc6e9b0a96f6"
+    },
+    "ref-array/ref-array.d.ts": {
+      "commit": "56df28f76adb7c11c019282699afdc6e9b0a96f6"
+    },
+    "node-ffi/node-ffi-buffer.d.ts": {
+      "commit": "56df28f76adb7c11c019282699afdc6e9b0a96f6"
+    },
+    "node-ffi/node-ffi.d.ts": {
+      "commit": "56df28f76adb7c11c019282699afdc6e9b0a96f6"
+    },
+    "cookie/cookie.d.ts": {
+      "commit": "24e12a7af994afa2226af70fbfae0adc78736a9e"
+    }
+  }
+}

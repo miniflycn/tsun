@@ -1,0 +1,24 @@
+{
+    "compileOnSave": true,
+	"compilerOptions": {
+		"target": "es2015",
+		"module": "commonjs",
+		"declaration": true
+	},
+    "files": [
+        "./typings/index.d.ts",
+        "./index.ts",
+        "./demo/model/UserInfo.ts"
+    ],
+	"fileGlobs": [
+		"**/*.ts",
+		"!.vscode/**",
+		"!demo/**",
+		"!interface/**",
+		"!node_modules/**",
+		"!proto/**"
+    ],
+	"exclude": [
+		"node_modules"
+	]
+}

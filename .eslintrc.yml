@@ -1,0 +1,28 @@
+# .eslintrc 支持 [YAML 格式](http://yaml.org/)，为了方便写注释这里采用 YAML
+
+# 防止被用户其他上层目录的 .eslintrc 文件干扰
+root: true
+
+# 以 [airbnb 的 JavaScript 代码风格指南](https://github.com/airbnb/javascript/)为基准
+extends:
+  - airbnb
+
+rules:
+  # 无分号风格
+  # 行末不加分号
+  # 当行首出现 [, (, /, +, - 其中之一时，在前面加 ; （实际使用中只要记得前两个就行）
+  semi: [error, never]
+
+  # 派生类的构造器函数必须有 super() 调用，其他情况下构造器函数都不允许调用 super()
+  constructor-super: error
+
+  # 用 obj.func(...args) 替代 func.apply(obj, args)
+  prefer-spread: error
+
+  # 不产生新变量的解构赋值语句应当被视作 error
+  no-empty-pattern: error
+
+  # object-shorthand 在 v2.9.0 中有 bug，等下一版本发布后再开启
+  object-shorthand: off
+
+  react/prop-types: 0
